@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TV Lite — Shows</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<body class="text-light">
+
+ <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#111;border-bottom:2px solid #6a0297;">
+  <div class="container-fluid px-sm-2">
+    <a class="navbar-brand text-purple" href="#">TV Shows</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="shows.html">Shows</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <section class="page-container">
+    <h1>All Shows</h1>
+    <p>Discover a wide selection of popular and trending TV shows.</p>
+
+    <div class="show-grid">
+      <div class="show-card">
+        <img src="stranger-things-season-1-key-art.webp" alt="Stranger Things">
+        <div class="show-content">
+          <h3>Stranger Things</h3>
+          <p>Mystery, friendship, and monsters in the 80s.</p>
+        </div>
+      </div>
+
+      <div class="show-card">
+        <img src="brbad.webp" alt="Breaking Bad">
+        <div class="show-content">
+          <h3>Breaking Bad</h3>
+          <p>A chemistry teacher turns to crime to provide for his family.</p>
+        </div>
+      </div>
+
+      <div class="show-card">
+        <img src="got.webp" alt="Game of Thrones">
+        <div class="show-content">
+          <h3>Game of Thrones</h3>
+          <p>Epic battles and political intrigue in Westeros.</p>
+        </div>
+      </div>
+
+      <div class="show-card">
+        <img src="doctorhaus.webp" alt="Doctor House">
+        <div class="show-content">
+          <h3>Doctor House</h3>
+          <p>Very Interesting Doctor with attitudes</p>
+        </div>
+      </div>
+
+      <div class="show-card">
+        <img src="peacemaker.webp" alt="Peacemaker">
+        <div class="show-content">
+          <h3>Peacemaker</h3>
+          <p>Incredible show about man who wants to be superhero with their friends.</p>
+        </div>
+      </div>
+
+      <div class="show-card">
+        <img src="forever.webp" alt="Forever">
+        <div class="show-content">
+          <h3>Forever</h3>
+          <p>A story about a man who became immortal.</p>
+        </div>
+      </div>
+
+      <div class="show-card">
+        <img src="friends.jpeg" alt="Friends">
+        <div class="show-content">
+          <h3>Friends</h3>
+          <p>Follow six friends navigating life and love in New York City.</p>
+        </div>
+      </div>
+
+      <div class="show-card">
+        <img src="thewitcher.webp" alt="The Witcher">
+        <div class="show-content">
+          <h3>The Witcher</h3>
+          <p>Monster hunting, destiny, and political intrigue.</p>
+        </div>
+      </div>
+
+      <div class="show-card">
+        <img src="theoffice.webp" alt="The Office">
+        <div class="show-content">
+          <h3>The Office</h3>
+          <p>A hilarious look at office life and quirky coworkers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="container mt-5 text-center" id="ratingSection">
+  <h2 class="mb-3 text-purple">Would you like to rate our website?</h2>
+  <div id="stars">
+    <i class="star bi bi-star" data-value="1"></i>
+    <i class="star bi bi-star" data-value="2"></i>
+    <i class="star bi bi-star" data-value="3"></i>
+    <i class="star bi bi-star" data-value="4"></i>
+    <i class="star bi bi-star" data-value="5"></i>
+  </div>
+  <p id="ratingMessage" class="mt-3"></p>
+</section>
+<section class="container text-center mt-4">
+  <button id="timeBtn" class="btn btn-outline-light mt-3">Show Current Time</button>
+  <p id="timeDisplay" class="mt-3 text-purple"></p>
+</section>
+
+
+  <footer class="footer-section">
+    <p>&copy; 2025 TV Shows. All rights reserved.</p>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<script src="script.js"></script>
+</body>
+</html>
